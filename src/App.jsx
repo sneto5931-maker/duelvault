@@ -16,7 +16,7 @@ export default function App() {
   return (
     <>
       <header className="nav">
-        <Link to="/" className="brand"><span className="brand-mark" /><span>Duel<b>Vault</b></span></Link>
+        <Link to="/" className="brand"><span className="brand-mark" /><span>Cofre do <b>Duelista</b></span></Link>
         <nav>
           <NavLink to="/" end>Início</NavLink>
           <NavLink to="/cartas">Cartas</NavLink>
@@ -32,7 +32,7 @@ export default function App() {
         </Routes>
       </main>
       <footer className="foot">
-        DuelVault é um projeto de fã, sem afiliação com a Konami. Dados de cartas via API pública do YGOPRODeck. Preços em R$ por <a href="https://mypcards.com" target="_blank" rel="noopener noreferrer" style={{textDecoration:"underline"}}>MYP Cards</a>.
+        Cofre do Duelista é um projeto de fã, sem afiliação com a Konami. Dados de cartas via API pública do YGOPRODeck. Preços em R$ por <a href="https://mypcards.com" target="_blank" rel="noopener noreferrer" style={{textDecoration:"underline"}}>MYP Cards</a>.
       </footer>
       {open && <CardModal card={open} onClose={() => setOpen(null)} notify={notify} />}
       {toast && <div className="toast" role="status">{toast}</div>}

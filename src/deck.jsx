@@ -49,7 +49,7 @@ export function DeckProvider({ children }) {
 }
 
 export function toYdk(deck) {
-  return ['#created by DuelVault', '#main', ...deck.main.map((c) => c.id), '#extra', ...deck.extra.map((c) => c.id), '!side', ...deck.side.map((c) => c.id), ''].join('\n')
+  return ['#created by Cofre do Duelista', '#main', ...deck.main.map((c) => c.id), '#extra', ...deck.extra.map((c) => c.id), '!side', ...deck.side.map((c) => c.id), ''].join('\n')
 }
 
 export function parseYdk(text) {

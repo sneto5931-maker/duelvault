@@ -1,4 +1,4 @@
-# DuelVault (frontend)
+# Cofre do Duelista (frontend)
 
 Banco de cartas e deck builder de Yu-Gi-Oh! em React + Vite.
 

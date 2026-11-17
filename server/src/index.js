@@ -10,7 +10,7 @@ import { PriceService } from './service.js'
 import { createApp } from './app.js'
 
 const config = loadConfig()
-const log = (...a) => console.log('[duelvault]', ...a)
+const log = (...a) => console.log('[cofre]', ...a)
 
 const limiters = {
   myp: new OutboundLimiter({ limitPerMin: config.myp.limitPerMin }),

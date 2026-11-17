@@ -1,4 +1,4 @@
-# DuelVault – backend (preços do MYP Cards)
+# Cofre do Duelista – backend (preços do MYP Cards)
 
 Servidor Express que consulta o MYP Cards **por você**, guarda o token, associa as cartas do
 YGOPRODeck aos produtos do MYP e usa cache para respeitar os limites da API.
